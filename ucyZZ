@@ -3576,7 +3576,6 @@ for i=1,64 do _O0OIIO00O0[string.byte(_O0IOII0OI0,i)]=i-1 end
 local _I00lOII10l=table.concat(_1I0O0I010O)
 local _I0O001l0I1,_011lOlO10O,acc,bc={},0,0,0
 local byte,char,floor=string.byte,string.char,math.floor
--- чистая арифметика, без bit32/bit, совместимо с любой версией Luau
 local function xorb(a,b)
 local r,p=0,1
 for i=1,8 do
